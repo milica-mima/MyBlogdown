@@ -1,0 +1,57 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "A Hugo website"
+theme = "hugo-lithium"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+enableEmoji = true
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "About"
+    pre = ""
+    url = "/about/"
+        weight = 1
+[[menu.main]]
+    name = "GitHub"
+    pre = "fa-github-square"
+    url = "https://github.com/Datoteka"
+        weight = 3
+[[menu.main]]
+    name = "Twitter"
+    pre = "fa-twitter-square"
+    url = "https://twitter.com/Datoteka"
+        weight = 2
+[[menu.main]]
+    name = "Posts"
+    pre = "fa-bullhorn"
+    url = "/post/"
+        weight = 4
+
+
+[params]
+    description = "A website built through Hugo and blogdown. We can add any text..."
+    chapter = "Belgrade, RS"
+    customCSS = ["css/datateka.css", "css/fontawesome.min.css"]
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.12.0"
+    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    MathJaxVersion = "2.7.5"
+
+    # path to the favicon, under "static"
+    favicon = "favicon.ico"
+
+    [params.logo]
+    url = "DataTeka_logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+

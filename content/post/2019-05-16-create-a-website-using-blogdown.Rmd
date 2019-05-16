@@ -1,0 +1,18 @@
+---
+title: Create a website using Blogdown
+author: Milica
+date: '2019-05-16'
+slug: create-a-website-using-blogdown
+categories:
+  - R
+tags: []
+---
+
+Prvi post 
+
+``` {r calculator}
+x <- c (4, 7, 2)
+y <- c (1, 2, 3)
+z <- x+y
+z
+```

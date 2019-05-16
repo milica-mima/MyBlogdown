@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A Hugo website</title>
+    <link>/</link>
+    <description>Recent content on A Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Create a website using Blogdown</title>
+      <link>/2019/05/16/create-a-website-using-blogdown/</link>
+      <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/05/16/create-a-website-using-blogdown/</guid>
+      <description>Prvi post
+x &amp;lt;- c (4, 7, 2)y &amp;lt;- c (1, 2, 3)z &amp;lt;- x+yz## [1] 5 9 5</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      
+      <guid>/about/</guid>
+      <description>DataTeka focuses on helping people understand and make sense of their data through thorough and insightful training strategies. We provide one to one and group tutoring that concentrate on the key aspects of mastering data science. We are able to customize courses to your personal and business requirements and build on your existing knowledge and expertise. Please tell us what your interests are: to learn about data analytics through the use of R and begin to visualize your data, or as a method of producing interactive reporting.</description>
+    </item>
+    
+  </channel>
+</rss>
